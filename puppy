@@ -1,0 +1,54 @@
+臺中驛鐵道文化園區影展專題網頁 - Vibe Coding Prompt 說明紀錄
+
+本專案係依據行銷影展專題《歲月日新，驛動人心：臺中驛鐵道文化園區》企劃書，採用 Vibe Coding 人工智慧輔助開發模式建立之專題 Landing Page 網頁。
+
+一、 專案架構說明 (Project Structure)
+
+專案採用簡潔模組化架構，靜態網頁資源與樣式表獨立管理：
+
+my-project/
+├── index.html        # 專案主頁面 (HTML5 語意化結構)
+├── README.md         # Vibe Coding Prompt 說明紀錄文件
+└── css/
+    └── style.css     # 全域樣式表 (包含酒紅/香檳金主題色彩與 CSS Grid / RWD)
+
+
+二、 Vibe Coding Prompt 指令紀錄 (Prompt Log)
+
+1. 專案視覺與結構規劃 Prompt
+
+Prompt:
+
+「請依照大二影展專題題目《歲月日新，驛動人心：臺中驛鐵道文化園區》，規劃一個具有導覽列、側邊欄及 5 大重點章節（01 專題首頁、02 策展亮點、03 分鏡剖析、04 企劃策略、05 專案檔案）的語意化 HTML 網頁，並包含 Open Graph 與 Meta SEO 設定。」
+
+2. Grid System 與 CSS 模組與色彩計畫 Prompt
+
+Prompt:
+
+「請幫我撰寫整合版 css/style.css 樣式。使用 CSS Grid 實作雙欄佈局（側邊欄 260px，主內容區自適應），並套用典雅古蹟風格的酒紅（Burgundy #6b1d2f）與香檳金（Champagne Gold #c89d56）色彩計畫，提升整體復古與文化影展質感。」
+
+3. RWD 手持裝置適應與網路圖片連結 Prompt
+
+Prompt:
+
+「請加入 Media Query 媒體查詢，確保手持裝置（iPad/手機）觀看時 Grid 自動降級為單欄且側邊欄沉底；並將首頁主視覺圖片連結更換為指定的公開網路圖片 URL (https://share.google/gtyEGP2cmRPyZNkSN)，確保免上傳圖檔亦不破圖。」
+
+三、 專案交付三大連結 (Deliverables)
+
+Prompt 說明 md 檔案 GitHub 連結：
+
+https://github.com/你的GitHub帳號/你的專案名稱/blob/main/README.md
+
+InfinityFree 主機部署網址 (Landing Page 首頁)：
+
+http://你的帳號.free.je
+
+Vercel 部署網址：
+
+https://你的專案名稱.vercel.app
+
+
+### 📋 補充說明與建議：
+
+1. **獨立資料夾上傳**：在電腦中建立專屬資料夾（例如 `my-project-chihying`），確保裡面的檔案名稱精準為 **`index.html`**、**`README.md`** 以及在 **`css/`** 資料夾中的 **`style.css`**。
+2. **解決 Vercel 白屏問題**：只要確定首頁檔案名稱是全小寫的 `index.html`，且儲存庫是獨立上傳的，Vercel 就會自動抓到頁面並成功顯示酒紅色主題！
